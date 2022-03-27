@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "afmod:block/automatic_crafting_table" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "afmod:block/automatic_crafting_table_front",
+    "north": "afmod:block/automatic_crafting_table_front",
+    "south": "afmod:block/automatic_crafting_table_side",
+    "east": "afmod:block/automatic_crafting_table_side",
+    "west": "afmod:block/automatic_crafting_table_front",
+    "up": "afmod:block/automatic_crafting_table_top",
+    "down": "afmod:block/automatic_crafting_table_down"
+  }
+}

@@ -1,11 +1,14 @@
 package net.mandm.mod.block;
 
 import net.mandm.mod.AFMod;
+import net.mandm.mod.block.custom.AutomaticCraftingTable;
 import net.mandm.mod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,8 +21,9 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, AFMod.MOD_ID);
 
-//    public static final RegistryObject<Block> TITANIUM_BLOCK = registryBlock("titanium_block",
-//            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> AUTOMATIC_CRAFTING_TABLE = registryBlock("automatic_crafting_table",
+            () -> new AutomaticCraftingTable(BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops()));
+
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

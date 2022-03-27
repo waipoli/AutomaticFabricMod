@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "STS",
+    "SFS"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "C": {
+      "item": "minecraft:stone"
+    },
+    "T": {
+      "item": "minecraft:crafting_table"
+    },
+    "F": {
+      "item": "minecraft:repeater"
+    }
+
+  },
+  "result": {
+    "item": "afmod:automatic_crafting_table"
+  }
+}
