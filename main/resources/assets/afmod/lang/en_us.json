@@ -1,3 +1,4 @@
 {
-  "block.afmod.automatic_crafting_table": "Automatic Crafting Table"
+  "block.afmod.automatic_crafting_table": "Automatic Crafting Table",
+  "item.afmod.blueprint": "Blueprint"
 }

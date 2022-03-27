@@ -1,4 +1,4 @@
-package net.mandm.mod.block.custom;
+package net.mandm.afmod.block.custom;
 
 import net.minecraft.Util;
 import net.minecraft.core.BlockPos;

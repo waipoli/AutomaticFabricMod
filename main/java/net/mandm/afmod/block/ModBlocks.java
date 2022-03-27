@@ -1,8 +1,8 @@
-package net.mandm.mod.block;
+package net.mandm.afmod.block;
 
-import net.mandm.mod.AFMod;
-import net.mandm.mod.block.custom.AutomaticCraftingTable;
-import net.mandm.mod.item.ModItems;
+import net.mandm.afmod.AFMod;
+import net.mandm.afmod.block.custom.AutomaticCraftingTable;
+import net.mandm.afmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -32,7 +32,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(CreativeModeTab.TAB_REDSTONE)));
     }
 
     public static void register(IEventBus eventBus) {

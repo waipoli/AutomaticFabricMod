@@ -1,8 +1,8 @@
-package net.mandm.mod;
+package net.mandm.afmod;
 
 import com.mojang.logging.LogUtils;
-import net.mandm.mod.block.ModBlocks;
-import net.mandm.mod.item.ModItems;
+import net.mandm.afmod.block.ModBlocks;
+import net.mandm.afmod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
