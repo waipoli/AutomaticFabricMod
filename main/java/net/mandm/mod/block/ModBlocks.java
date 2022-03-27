@@ -1,13 +1,11 @@
-package net.maximshvedchenko.mod.block;
+package net.mandm.mod.block;
 
-import net.maximshvedchenko.mod.TestMod;
-import net.maximshvedchenko.mod.item.ModItems;
+import net.mandm.mod.AFMod;
+import net.mandm.mod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,7 +16,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, TestMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, AFMod.MOD_ID);
 
 //    public static final RegistryObject<Block> TITANIUM_BLOCK = registryBlock("titanium_block",
 //            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4f).requiresCorrectToolForDrops()));

@@ -1,8 +1,8 @@
-package net.maximshvedchenko.mod;
+package net.mandm.mod;
 
 import com.mojang.logging.LogUtils;
-import net.maximshvedchenko.mod.block.ModBlocks;
-import net.maximshvedchenko.mod.item.ModItems;
+import net.mandm.mod.block.ModBlocks;
+import net.mandm.mod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -11,12 +11,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@net.minecraftforge.fml.common.Mod(TestMod.MOD_ID)
-public class TestMod {
+@net.minecraftforge.fml.common.Mod(AFMod.MOD_ID)
+public class AFMod {
     private static final Logger LOGGER = LogUtils.getLogger();
-    public static final String MOD_ID = "testmod";
+    public static final String MOD_ID = "afmod";
 
-    public TestMod() {
+    public AFMod() {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
